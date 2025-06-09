@@ -94,7 +94,7 @@ def iniciar_flujo_pago():
             break
         print("Correo no tiene un formato válido.")
 
-    # Pedir descripción pero puede ser vacía; si vacía, se asigna por defecto
+    # Se pide la descripción pero se puede dejar en vacío ya que se asigna por defecto
     descripcion = input("Motivo del pago (puede dejar vacío): ").strip()
     if not descripcion:
         descripcion = "Pago por compra de producto"
@@ -112,6 +112,6 @@ def iniciar_flujo_pago():
     else:
         print("No se pudo generar el pago.")
 
-# Punto de entrada del script
+# Activación del script de pago
 if __name__ == "__main__":
     iniciar_flujo_pago()
