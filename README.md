@@ -24,7 +24,7 @@ El propósito de este proyecto es demostrar el proceso de creación de un enlace
 Se incluyen imágenes que muestran:
 
 - Generación de enlace para pago.
-- Selección de Banco (Demobank) para pagar
+- Selección de Banco (Demobank) para pagar.
 - Selección de cuenta en DemoBank.
 - Confirmación de transferencia.
 - Visualización del pago realizado en el portal de desarrollador de Khipu.
@@ -32,3 +32,8 @@ Se incluyen imágenes que muestran:
 ## Consideraciones
 
 Este proyecto utiliza la API en modo desarrollador y el entorno DemoBank, por lo que los pagos no son reales, sino simulados para fines de integración y prueba.
+
+## Bibliografía
+
+- [Documentación oficial de la API de pagos de Khipu](https://khipu.com/page/api)  
+  Fuente principal utilizada para comprender el funcionamiento de la API, sus endpoints y ejemplos de integración en modo desarrollador.
